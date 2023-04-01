@@ -1,0 +1,41 @@
+.headingWrapper{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbarWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 75px;
+    flex-direction: column;
+    width: 250px;   
+}
+.main-slide{
+    padding-top: 30px;
+}
+
+.position{
+    padding: 4px 20px;
+    position: relative;
+}
+.positioning{
+    position: absolute;
+    margin-left: 200px;
+}
+.verticalNavbarLinks{
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: flex;
+}
+.verticalNavbarLinks:hover{
+    color: gold;
+    text-decoration: none;
+}

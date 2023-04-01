@@ -1,0 +1,119 @@
+.footerMainWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.footerItemsWrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 165px 20px;
+}
+.locationHeading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+hr{
+    color: orange;
+}
+.footerLocationWrapper{
+    width: 210px;
+}
+.contNumber{
+    margin-left: 5px;
+}
+.locationAddress{
+    margin-bottom: 10px;
+}
+.locationNumber{
+    margin-bottom: 10px;
+}
+.contNumberStyle{
+    color: #000000;
+}
+.contNumberStyle:hover{
+    color: gold;
+    text-decoration: none;
+}
+.footerAccountWrapper{
+    width: 210px;
+}
+.accountHeading{
+    margin-left: 40px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+.listItemStyling{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+}
+ul li{
+    list-style: none;
+}
+.listItemStyling:hover{
+    color: gold;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    margin-left: 10px;
+}
+.footerInformationWrapper{
+    width: 210px;
+}
+.informationHeading{
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+.footerSupportWrapper{
+    width: 220px;
+}
+.supportHeading{
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+.lowerFooterWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 165px 20px;
+}
+.lowerFooterItems{
+    display: flex;
+}
+.lowerFooterlist{
+    color: #000000;
+    text-decoration: none;
+}
+.lowerFooterlist:hover{
+    color: gold;
+    text-decoration: none;
+}
+.paymentsWrapper{
+    display: flex;
+}
+.paymentOptions{
+    margin-right: 2px;
+}
+.copyrightWrapper{
+    text-align: center;
+    padding: 30px 0;
+    background-color: #F4F4F4;
+    width: 100%;
+}
+.social-tags-container{
+    display: flex;
+}
+

@@ -1,0 +1,10 @@
+.imagesWrapperMain{
+    border: 1px solid lightgrey;
+    display: flex;
+    margin-top: 50px;
+    width: 265px;
+}
+.imagesWrapperMain img{
+    width: 265px;
+    border: 1px solid lightgray;
+}

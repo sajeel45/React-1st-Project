@@ -1,0 +1,53 @@
+.verticalMenuWrapper{
+    margin: 0 75px;
+    padding-top: 30px;
+    width: 250px;
+}
+.headingPosition{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+
+    
+}
+.images{
+
+    width: 100px;
+    height: 100px;
+}
+.imageWrapper{
+    border: 1px solid lightgray;
+}
+.originalPrice{
+    color: #000;
+    margin: 0;
+    padding:0 ;
+    
+}
+.advertisementWrapper{
+    display: flex;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.titleOfItem:hover{
+    color: gold;
+    text-decoration: none;
+}
+.price{
+    color: gold;
+    display: flex;
+    flex-direction: column;
+}
+.titleOfItem{
+    text-decoration: none;
+    color: #000;
+}
+Link:hover{
+    text-decoration: none;
+}
+.descriptionWrapper{
+    margin-left: 5px;
+}

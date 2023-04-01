@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    font-family: 'Lato';
+    font-size: 16px;
+  }
+/* .navbar{
+    display: flex;    
+} */
+
+/* .contactWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upperHeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+.bottomHeaderWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin: 0 10px;
+    
+}
+.links{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.links:hover{
+    color: gold;
+    text-decoration: none;
+}
+.home{
+  color: gold;
+}
+
+.logoWrapper{
+    margin-left: 20px;
+}
+.navbarLinksWrapper{
+    display: flex;
+    
+}
+#nav {
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+  }
+  
+  #nav:hover{
+    color: gold;
+  }
+  #nav li {
+    list-style: none;
+    position: relative;
+    background: white;
+    /* menu background color */
+  }
+  #nav li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 100px;
+    /* this is the width of the menu items */
+    line-height: 35px;
+    /* this is the hieght of the menu items */
+    color: black;
+    /* list item font color */
+  }
+  
+  #nav li li a {
+    font-size: 80%;
+  }
+  
+  
+  /* smaller font size for sub menu items */
+  
+  #nav li:hover {
+    background: white;
+    color: gold;
+  }
+  
+  
+  /* highlights current hovered list item and the parent list items when hovering over sub menues */
+  
+  #nav ul {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+    /* hides sublists */
+  }
+  
+  #nav li:hover ul ul {
+    display: none;
+  }
+  
+  
+  /* hides sub-sublists */
+  
+  #nav li:hover ul {
+    display: block;
+    z-index: 1;
+  }
+  
+  
+  /* shows sublist on hover */
+  
+  #nav li li:hover ul {
+    display: block;
+    /* shows sub-sublist on hover */
+    margin-left: 200px;
+    /* this should be the same width as the parent list item */
+    margin-top: -35px;
+    /* aligns top of sub menu with top of list item */
+  }
+ 
+ 
+ 
+  .pages{
+    width: 215px;
+  }
+  .pagesWrapper:hover{
+    overflow: visible;
+    
+  }
+  .trekkingWrapper:hover{
+    overflow: visible;
+  }
+  .pages{
+    box-shadow: 0 0 30px #00000026;
+  }
+  .pages li{
+    text-align: left;
+    
+  }
+  .pages li a{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-left: 20px;
+  }
+  .fontsizing{
+    font-weight: 700;
+  }
+  a.paddingStyle{
+    padding-top: 20px;
+  }
+  

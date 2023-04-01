@@ -1,0 +1,33 @@
+import React, { useState } from 'react';
+
+function Pagination({ data, pageSize }) {
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const pageCount = Math.ceil(data.length / pageSize);
+
+  const handleClick = (page) => {
+    setCurrentPage(page);
+  };
+
+  const slicedData = data.slice(
+    (currentPage - 1) * pageSize,
+    currentPage * pageSize
+  );
+
+  return (
+    <div>
+      {slicedData.map((item) => (
+        <div key={item.id}>{item.name}</div>
+      ))}
+      <div>
+        {Array.from({ length: pageCount }, (_, i) => (
+          <button key={i} onClick={() => handleClick(i + 1)}>
+            {i + 1}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Pagination;

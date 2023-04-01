@@ -1,0 +1,13 @@
+.advertisementWrapper{
+    justify-content: space-between;
+}
+.firstAdvertisement img{
+    width: 380px;
+}
+.secondAdvertisement{
+    margin-left: 20px;
+}
+.secondAdvertisement img{
+    
+    width: 380px;
+}

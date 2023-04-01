@@ -1,0 +1,41 @@
+h3{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+}
+.newsletterWrapper{
+    margin: 0 75px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+
+}
+.newslettertextWrapper{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.newsLetterText{
+    padding-bottom: 20px;
+}
+.inputfield{
+    background-color: lightgray;
+    height: 35px;
+    border: 0;
+}
+.icon{
+    background-color: gold;
+    width: 30px;
+    height: 35px;
+}
+.sendButton{
+    background-color: gold;
+    height: 35px;
+    width: 50px;
+    border: 0;
+}
+.inputfield{
+    padding: 13px;
+}
+.sendButton:hover{
+    background-color: black;
+}

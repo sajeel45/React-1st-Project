@@ -1,0 +1,63 @@
+.bestProductsHeadingWrapper{
+    background-color: gold;
+    margin-top: 50px;
+    width: 800px;
+}
+
+.heading{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 20px;
+    height: 70px;
+    width: 100%;
+}
+.bestProductsMainWrapper{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productImageWrapper img{
+    width: 200px;
+    border: 1px solid lightgrey;
+    margin: 0;
+}
+.productButton{
+    background-color: orange;
+    height: 20px;
+    width: 20px;
+    border: 0;
+    margin-bottom: 10px;
+}
+.bestProductsMainWrapper{
+    display: flex;
+}
+.bestSellingButton{
+    border: 0;
+    height: 20px;
+    width: 20px;
+    background-color: gold;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.productheadingWrapper{
+    text-align: center;    
+    border: 1px solid lightgray;
+    
+}
+.productTitle{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.productPriceWrapper{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 15px 0;
+}
+.productPrice{
+    font-weight: 400;
+    font-size: 20px;
+    color: gold;
+}

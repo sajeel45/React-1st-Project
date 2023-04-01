@@ -1,0 +1,45 @@
+.equipmentWrapper{
+    width: 250px;
+    border: 1px solid lightgray;
+}
+.equipmentsMainWrapper{
+    margin-top: 50px;
+    margin: 0 75px;
+}
+h3{
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+}
+.equipmentButton{
+    border: 0;
+    background-color: gold;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.equipmentTitleWrapper{
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.equipmentTitle{
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding: 15px 0;
+}
+.equipmentPriceWrapper{
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.equipmentPrice{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 0;
+    color: gold;
+}
+.equipmentTitleWrapper:hover{
+    color: gold;
+}

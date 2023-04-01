@@ -1,0 +1,21 @@
+
+ .galleryWrapper .image-gallery{
+    
+      width: 800px;
+  }
+  
+.image-gallery-thumbnail-wrapper .image-gallery-thumbnails{
+  padding: 0;
+}
+.image-gallery-thumbnails {
+  padding: 0;
+}
+.image-gallery-thumbnail{
+  width: 200px;
+  margin: 0px;
+  border: 5px solid black;
+}
+
+.image-gallery-thumbnail.image-gallery-thumbnail{
+  margin-left: 0px;
+}

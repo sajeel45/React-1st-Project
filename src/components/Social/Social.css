@@ -1,0 +1,45 @@
+h3{
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.socialWrapper{
+    margin: 0 75px;
+    width: 250px;
+    padding-top: 50px;
+}
+.socialTextWrapper{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.viewMoreButton:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s linear 0s;
+    
+}
+
+.viewMore{
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    width: 250px;
+    height: 50px;
+    border: 0;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+.viewMore:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.greater{
+    margin-left: 5px;
+}

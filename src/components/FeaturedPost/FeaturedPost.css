@@ -1,0 +1,90 @@
+.featuredpostWrapper{
+    
+    margin: 0 75px;
+    margin-top: 50px ;
+    width: 250px;
+    font-family: 'Lato';
+}
+.gallery-Wrapper{
+    border: 1px lightgray solid;
+}
+.user{
+    color: gold;
+    margin-right: 10px;
+    
+}
+.userWrapper{
+    padding-top: 10px;
+}
+.dateWrapper{
+    padding-top: 10px;
+}
+.titleWrapper{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.text-Wrapper{
+    text-align: center;
+}
+/* .linkWrapper{
+    background-color: gold;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    margin-bottom: 10px;
+} */
+/* .linkWrapper:hover{
+    background-color: black;
+}
+.linktextwrapper{
+    color: black;
+    background-color: gold;
+    width: 100px;
+    height:50px;
+    display: block;
+    text-align: center;
+    
+
+} */
+.linkStyling{
+    background-color: gold;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 0;
+    margin: 0 30px;
+
+
+}
+.linkStylingWrapper{
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+
+}
+.linkStyling:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+
+}
+.linktextwrapper:hover{
+    text-decoration: none;
+    color: white;
+    transition: all .3s linear 0s;
+    background-color: black;
+}
+button:hover{
+    color: white;
+}
+.descriptionWrapper{
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    font-size: 20px;
+    margin: 0 50px;
+}
+.greater{
+    margin-left: 10px;
+}

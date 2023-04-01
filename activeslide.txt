@@ -1,0 +1,57 @@
+import React, { useState } from 'react';
+import ImageGallery from 'react-image-gallery';
+
+const images = [
+  {
+    original: 'https://example.com/image1.jpg',
+    thumbnail: 'https://example.com/thumbnail1.jpg',
+  },
+  {
+    original: 'https://example.com/image2.jpg',
+    thumbnail: 'https://example.com/thumbnail2.jpg',
+  },
+  {
+    original: 'https://example.com/image3.jpg',
+    thumbnail: 'https://example.com/thumbnail3.jpg',
+  },
+];
+
+function MyGallery() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleClick = (direction) => {
+    const maxIndex = images.length - 1;
+    let newIndex = currentIndex;
+
+    if (direction === 'prev') {
+      newIndex = currentIndex === 0 ? maxIndex : currentIndex - 1;
+    } else {
+      newIndex = currentIndex === maxIndex ? 0 : currentIndex + 1;
+    }
+
+    setCurrentIndex(newIndex);
+  };
+
+  return (
+    <div>
+      <ImageGallery items={images} slideInterval={2000} onSlide={(currentIndex) => setCurrentIndex(currentIndex)} />
+      <div>
+        <button onClick={() => handleClick('prev')}>Prev</button>
+        <button onClick={() => handleClick('next')}>Next</button>
+      </div>
+    </div>
+  );
+}
+In this example, we're using the useState hook to keep track of the current slide index.
+We're also defining a handleClick function that takes a direction argument (prev or next) and updates the current index 
+accordingly. If the direction is prev and the current index is already 0, 
+we set the new index to the last image in the array. If the direction is next and the current index is already 
+the last index, we set the new index to the first image in the array.
+
+In the return statement, we're rendering the ImageGallery component and passing in the items prop with our image data, 
+as well as the slideInterval prop to control the time between automatic slide changes. 
+We're also passing in an onSlide prop that sets the current index whenever the slide changes. 
+Finally, we're rendering two buttons that call the handleClick function with the appropriate direction when clicked.
+
+Note that this approach uses state to manage the current slide index, which is a more declarative and predictable way 
+to handle updates than using DOM manipulation.

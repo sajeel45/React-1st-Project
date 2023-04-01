@@ -1,0 +1,60 @@
+function Equipment(props) {
+
+  // const [image,showImage] = useState(false);
+  const [index,setCurrentIndex] = useState(0);
+
+  
+  // const handleImages = () =>{
+  //   showImage(!image)
+  // }
+  const handleClick = (index) => {
+    setCurrentIndex(index);
+  };
+  const handleSlide = (currentIndex) => {
+    setCurrentIndex(currentIndex)
+  }
+  return (
+    <>
+      <div className="equipmentWrapper">
+        <h3>EQUIPMENTS</h3>
+        <div className="keychainWrapper">
+          {/* <button onClick={handleImages} className="button"></button> */}
+            <ReactImageGallery
+            items={images}
+            showPlayButton={false}
+            showFullscreenButton={false}
+            slideDuration={500}
+            style={{ maxHeight: "600px" }}
+            startIndex = {0}
+            
+          />
+
+          <div className="colorPicker">
+            <span className="textstyling">Hook Keychain</span>
+            <div className="boxWrapper">
+              <div className="clip">
+                {images.map((image,index)=>(
+
+                
+                <button className="button" onClick = {() => handleClick(index)} key={index}></button>
+                ))}
+                {/* {image && <ReactImageGallery items={images}/>} */}
+              </div>
+              {/* <div className="keychain">
+                <button className="keychainButton" onClick = {handleClick}></button>
+              </div> */}
+            </div>
+          </div>
+          <div className="priceWrapper">
+            <h5>€900,00</h5>
+            <i class="fa-thin fa-star stars"></i>
+            <i class="fa-thin fa-star stars"></i>
+            <i class="fa-thin fa-star stars"></i>
+            <i class="fa-thin fa-star stars"></i>
+            <i class="fa-thin fa-star stars"></i>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
